@@ -1,0 +1,8 @@
+@OData.publish : true
+context Stock {
+entity Monthly {
+"sno" : String(2);
+"name" : String(10);
+"Amount" : Integer;
+};
+};
